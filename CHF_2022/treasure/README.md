@@ -51,7 +51,7 @@ print(text)
 
 ![Python Output 1](/CHF_2022/treasure/images/pythonoutput1.png)
 
-Next, let's clean up the text by replacing newlines with a space and then seperating the individual words. Additionally, we need to remove any empty elements and any elements that are not words, i.e. punctuations. This will crop up in situations like "in the case of ALAN TURING'S HOUSE - DAY - 1951", where "-" will become an element even though it is not a word since it is seperated by a space.
+Next, let's clean up the text by replacing newlines with a space and then seperating the individual words. Additionally, we need to remove any empty elements in the list.
 ```python
 import string
 
@@ -71,7 +71,14 @@ print(list(text))
 
 ![Python Output 2](/CHF_2022/treasure/images/pythonoutput2.png)
 
-Perfect! That's exactly what we want! Let's get the respective words according to the indexes in the message. Don't forget to account for the fact that the indexes in the message start from 1!
+Perfect! That's exactly what we want! However, there seems to be some elements that are not words in the list, i.e. punctuations like `-`. This will crop up in situations like in the case of `ALAN TURING'S HOUSE - DAY - 1951`, where `-` will become an element even though it is not a word since it is seperated by a space.
+We can account for this by simply removing any element that is a punctuation.
+
+```python
+text = list(filter(lambda x: x and x not in string.punctuation, text))
+```
+
+Now, let's get the respective words according to the indexes in the message. Don't forget to account for the fact that the indexes in the message start from 1!
 
 ```python
 message = "14-13-58-60-13-190-187-41-38-13-107-2-70-4-9-107-127-38-37-49-60-60-49-9-59-35"
