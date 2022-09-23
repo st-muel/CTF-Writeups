@@ -26,7 +26,7 @@ After reading through and making sure it doesn't do anything sus, let's run it o
 Perfect! Hmmm, it seems to be the movie script for The Imitation Game. Lets redirect it into a text file first for easy access later.
 
 ```bash
-unzip -p document.docx word/document.xml | sed -e 's/<\/w:p>/\n/g; s/<[^>]\{1,\}>//g; s/[^[:print:]\n]\{1,\}//g' > imitation_game.txt
+unzip -p text.docx word/document.xml | sed -e 's/<\/w:p>/\n/g; s/<[^>]\{1,\}>//g; s/[^[:print:]\n]\{1,\}//g' > imitation_game.txt
 ```
 
 Looking back at the description, the message doesn't seem to be in the format of an Enigma Cipher though. Let's google to see if any other ciphers were mentioned in the movie.
