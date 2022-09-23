@@ -81,8 +81,6 @@ text = list(filter(lambda x: x and x not in string.punctuation, text))
 Now, let's get the respective words according to the indexes in the message. Don't forget to account for the fact that the indexes in the message start from 1!
 
 ```python
-import string
-
 message = "14-13-58-60-13-190-187-41-38-13-107-2-70-4-9-107-127-38-37-49-60-60-49-9-59-35"
 message = message.split("-")
 message = map(int, message)
