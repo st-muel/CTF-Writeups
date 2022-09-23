@@ -96,11 +96,11 @@ for i in message:
   print(text[i-1], end="")
 ```
 
-`Byenigma"arelisteningenigma"CYANIDEinprofessorhomeenigma"repeatIMITATIONsomeWrittenonrepeatthathomeManchesterislisteninglisteningisonnotswarm`
+```Byenigma"arelisteningenigma"CYANIDEinprofessorhomeenigma"repeatIMITATIONsomeWrittenonrepeatthathomeManchesterislisteninglisteningisonnotswarm```
 
 Okay this makes no sense at all and is way too long in the first place. Could it be the first letter of each word then?
 
-`BealeCipherIsWorthMillions`
+```BealeCipherIsWorthMillions```
 
 Bingo! The final Python code:
 ```python
