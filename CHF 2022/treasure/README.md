@@ -11,4 +11,4 @@ He told me that this message will lead me to find a treasure.
 
 Reading the challenge name and description, it seems that we're supposed to find a treasure. The description seems to be of little use for now, so let's move on to the included file! The file seems to be a .docx file, and running `file` on it seems to confirm it.
 
-![Running file command](/CHF_2022/treasure/images/image.png)
+![Running file command]("/CHF 2022/treasure/images/image.png")
