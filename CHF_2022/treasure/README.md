@@ -33,7 +33,7 @@ Looking back at the description, the message doesn't seem to be in the format of
 
 ![Google Result](/CHF_2022/treasure/images/googleresult.png)
 
-By googling `the imitation game ciphers` and scrolling down, there appears to be a very interesting result. A "Beale Cipher" seems to be mentioned in the movie, although erroneously it seems. It can't be a coincidence that our dear friend just so happens to have the same name! Going to the Wikipedia page for Beale ciphers, it seems that it is a book cipher that states the location of buried treasure, which matches the challenge name and description.
+By googling "the imitation game ciphers" and scrolling down, there appears to be a very interesting result. A "Beale Cipher" seems to be mentioned in the movie, although erroneously it seems. It can't be a coincidence that our dear friend just so happens to have the same name! Going to the Wikipedia page for Beale ciphers, it seems that it is a book cipher that states the location of buried treasure, which matches the challenge name and description.
 
 All the pieces seem to be falling into place now. A book cipher is being used with the script for "The Imitation Game" as the book, and the numbers in the message correspond to the position of a word in the book.
 
