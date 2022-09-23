@@ -51,7 +51,7 @@ print(text)
 
 ![Python Output 1](/CHF_2022/treasure/images/pythonoutput1.png)
 
-Next, let's clean up the text by replacing newlines with a space and then seperating the individual words. Additionally, we need to remove any empty elements and any elements that are not words, i.e. punctuations. This will crop up in situations like "in the case of "ALAN TURING'S HOUSE - DAY - 1951", where "-" will become an element even though it is not a word since it is seperated by a space.
+Next, let's clean up the text by replacing newlines with a space and then seperating the individual words. Additionally, we need to remove any empty elements and any elements that are not words, i.e. punctuations. This will crop up in situations like "in the case of ALAN TURING'S HOUSE - DAY - 1951", where "-" will become an element even though it is not a word since it is seperated by a space.
 ```python
 import string
 
