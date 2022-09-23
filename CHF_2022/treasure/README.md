@@ -12,3 +12,11 @@ He told me that this message will lead me to find a treasure.
 Reading the challenge name and description, it seems that we're supposed to find a treasure. The description seems to be of little use for now, so let's move on to the included file! The file seems to be a .docx file, and running `file` on it seems to confirm it.
 
 ![Running file command](/CHF_2022/treasure/images/filecommand.png)
+
+We could use either `LibreOffice` or upload the file Google Docs to view the file, but since I'm too lazy to do either let's use this code I ripped from StackOverflow! (https://stackoverflow.com/a/25620447)
+
+```bash
+unzip -p document.docx word/document.xml | sed -e 's/<\/w:p>/\n/g; s/<[^>]\{1,\}>//g; s/[^[:print:]\n]\{1,\}//g'
+``
+
+After reading through the code and making sure it doesn't do anything sus, let's run it on our document.
