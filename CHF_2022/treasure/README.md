@@ -37,7 +37,7 @@ By googling "the imitation game ciphers" and scrolling down, there appears to be
 
 All the pieces seem to be falling into place now. A book cipher is being used with the script for "The Imitation Game" as the book, and the numbers in the message correspond to the position of a word in the book.
 
-We could theoretically just start counting, but let's save ourselves and make a Python script instead.
+We could technically just start counting, but let's save ourselves and make a Python script instead.
 ```python
 message = "14-13-58-60-13-190-187-41-38-13-107-2-70-4-9-107-127-38-37-49-60-60-49-9-59-35"
 message = message.split("-")
