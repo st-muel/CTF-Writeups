@@ -96,9 +96,7 @@ for i in message:
   print(text[i-1], end="")
 ```
 
-```
-Byenigma"arelisteningenigma"CYANIDEinprofessorhomeenigma"repeatIMITATIONsomeWrittenonrepeatthathomeManchesterislisteninglisteningisonnotswarm
-```
+![Python Output 3](/CHF_2022/treasure/images/pythonoutput3.png)
 
 Okay this makes no sense at all and is way too long in the first place. Could it be the first letter of each word then?
 
