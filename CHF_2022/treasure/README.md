@@ -29,7 +29,7 @@ Perfect! Hmmm, it seems to be the movie script for The Imitation Game. Lets redi
 unzip -p text.docx word/document.xml | sed -e 's/<\/w:p>/\n/g; s/<[^>]\{1,\}>//g; s/[^[:print:]\n]\{1,\}//g' > imitation_game.txt
 ```
 
-Looking back at the description, the message doesn't seem to be in the format of an Enigma Cipher though. Let's google to see if any other ciphers were mentioned in the movie.
+Looking back at the challenge description, the message doesn't seem to be in the format of an Enigma Cipher though. Let's google to see if any other ciphers were mentioned in the movie.
 
 ![Google Result](/CHF_2022/treasure/images/googleresult.png)
 
